@@ -8,7 +8,7 @@ public class Iphone implements ReprodutorMusical, AparelhoTelefonico, NavegadorI
 
     @Override
     public void tocar() {
-        System.out.println("Reproduzindo música...");
+        System.out.println("Tocando música...");
     }
 
     @Override
@@ -18,7 +18,7 @@ public class Iphone implements ReprodutorMusical, AparelhoTelefonico, NavegadorI
 
     @Override
     public void selecionarMusica(String musica) {
-        System.out.printf("Tocando %s\n", musica);
+        System.out.printf("Selecionando a música: %s\n", musica);
     }
 
 
